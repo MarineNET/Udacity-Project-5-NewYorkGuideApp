@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Udacity-Project-5-NewYorkGuideApp</string>
+
+    <string name="barbetta">Barbetta</string>
+
+    <string name="barbetta_address">321 W. 46th St.
+Manhattan, NY, 10036</string>
+
+    <string name="barbetta_descr">This establishment claims to be the oldest family-owned restaurant
+        in all of NYC. They’ve been purveyors of traditional Northern Italian fare since 1906.</string>
+</resources>
