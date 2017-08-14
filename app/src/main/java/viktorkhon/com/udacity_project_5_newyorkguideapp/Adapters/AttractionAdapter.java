@@ -10,14 +10,14 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import viktorkhon.com.udacity_project_5_newyorkguideapp.R;
-import viktorkhon.com.udacity_project_5_newyorkguideapp.Recommendations;
+import viktorkhon.com.udacity_project_5_newyorkguideapp.Recommendation;
 
 /**
  * Created by Viktor Khon on 8/13/2017.
  */
 
-public class AttractionAdapter extends ArrayAdapter<Recommendations> {
-    public AttractionAdapter(Activity context, ArrayList<Recommendations> recs) {
+public class AttractionAdapter extends ArrayAdapter<Recommendation> {
+    public AttractionAdapter(Activity context, ArrayList<Recommendation> recs) {
         super(context, 0, recs);
     }
 
@@ -28,7 +28,7 @@ public class AttractionAdapter extends ArrayAdapter<Recommendations> {
                     parent, false);
         }
 
-        final Recommendations recs = getItem(position);
+        final Recommendation recs = getItem(position);
 
         TextView title = (TextView) convertView.findViewById(R.id.title);
         title.setText(recs.getTitle());

@@ -11,14 +11,22 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import viktorkhon.com.udacity_project_5_newyorkguideapp.R;
-import viktorkhon.com.udacity_project_5_newyorkguideapp.Recommendations;
+import viktorkhon.com.udacity_project_5_newyorkguideapp.Recommendation;
 
 /**
  * Created by Viktor Khon on 8/13/2017.
  */
 
-public class RecAdapter extends ArrayAdapter<Recommendations> {
-    public RecAdapter(Activity context, ArrayList<Recommendations> recs) {
+public class RecAdapter extends ArrayAdapter<Recommendation> {
+
+    private static class ViewHolder {
+        private TextView title;
+        private TextView address;
+        private TextView description;
+        private ImageView image;
+    }
+
+    public RecAdapter(Activity context, ArrayList<Recommendation> recs) {
         super(context, 0, recs);
     }
 
@@ -29,23 +37,25 @@ public class RecAdapter extends ArrayAdapter<Recommendations> {
                     parent, false);
         }
 
-        final Recommendations recs = getItem(position);
+        final Recommendation recs = getItem(position);
 
-        TextView title = (TextView) convertView.findViewById(R.id.title);
-        title.setText(recs.getTitle());
+        ViewHolder holder = new ViewHolder();
 
-        TextView address = (TextView) convertView.findViewById(R.id.address);
-        address.setText(recs.getAddress());
+        holder.title = (TextView) convertView.findViewById(R.id.title);
+        holder.title.setText(recs.getTitle());
 
-        TextView description = (TextView) convertView.findViewById(R.id.description);
-        description.setText(recs.getDescription());
+        holder.address = (TextView) convertView.findViewById(R.id.address);
+        holder.address.setText(recs.getAddress());
 
-        ImageView image = (ImageView) convertView.findViewById(R.id.iv_image);
+        holder.description = (TextView) convertView.findViewById(R.id.description);
+        holder.description.setText(recs.getDescription());
+
+        holder.image = (ImageView) convertView.findViewById(R.id.iv_image);
         if (recs.hasImage()) {
-            image.setImageResource(recs.getImage());
+            holder.image.setImageResource(recs.getImage());
 
         } else {
-            image.setVisibility(View.GONE);
+            holder.image.setVisibility(View.GONE);
         }
 
         return convertView;

@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">New York Guide App</string>
 
+    <!-- Menu tabs -->
+    <string name="restaurants">Restau- rants</string>
+
+    <string name="hotels">Hotels</string>
+
+    <string name="tours">Tours</string>
+
+    <string name="attractions">Attracti-ons</string>
+
     <!-- Restaurants -->
     <string name="barbetta">Barbetta</string>
 

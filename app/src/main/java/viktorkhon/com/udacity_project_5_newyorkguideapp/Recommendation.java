@@ -4,27 +4,27 @@ package viktorkhon.com.udacity_project_5_newyorkguideapp;
  * Created by Viktor Khon on 8/13/2017.
  */
 
-public class Recommendations {
+public class Recommendation {
 
     private int mTitle;
     private int mAddress;
     private int mDescription;
     private int mImage;
 
-    public Recommendations(int title, int address, int description, int image) {
+    public Recommendation(int title, int address, int description, int image) {
         mTitle = title;
         mAddress = address;
         mDescription = description;
         mImage = image;
     }
 
-    public Recommendations(int title, int address, int description) {
+    public Recommendation(int title, int address, int description) {
         mTitle = title;
         mAddress = address;
         mDescription = description;
     }
 
-    public Recommendations(int title, int description) {
+    public Recommendation(int title, int description) {
         mTitle = title;
         mDescription = description;
     }

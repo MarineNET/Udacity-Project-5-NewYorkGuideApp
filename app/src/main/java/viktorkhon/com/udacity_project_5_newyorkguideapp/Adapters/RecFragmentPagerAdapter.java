@@ -1,11 +1,13 @@
 package viktorkhon.com.udacity_project_5_newyorkguideapp.Adapters;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import viktorkhon.com.udacity_project_5_newyorkguideapp.AttractionsFragment;
 import viktorkhon.com.udacity_project_5_newyorkguideapp.HotelsFragment;
+import viktorkhon.com.udacity_project_5_newyorkguideapp.R;
 import viktorkhon.com.udacity_project_5_newyorkguideapp.RestaurantFragment;
 import viktorkhon.com.udacity_project_5_newyorkguideapp.ToursFragment;
 
@@ -14,20 +16,25 @@ import viktorkhon.com.udacity_project_5_newyorkguideapp.ToursFragment;
  */
 
 public class RecFragmentPagerAdapter extends FragmentPagerAdapter {
-    public RecFragmentPagerAdapter(FragmentManager fm) {
+    Context mContext;
+    public RecFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+        mContext = context;
     }
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new RestaurantFragment();
-        } else if (position == 1) {
-            return new HotelsFragment();
-        } else if (position == 2) {
-            return new ToursFragment();
-        } else {
-            return new AttractionsFragment();
+        switch (position) {
+            case 0:
+                return new RestaurantFragment();
+            case 1:
+                return new HotelsFragment();
+            case 2:
+                return new ToursFragment();
+            case 3:
+                return new AttractionsFragment();
+            default:
+                return null;
         }
     }
 
@@ -40,13 +47,13 @@ public class RecFragmentPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "Restau- rants";
+                return mContext.getString(R.string.restaurants);
             case 1:
-                return "Hotels";
+                return mContext.getString(R.string.hotels);
             case 2:
-                return "Tours";
+                return mContext.getString(R.string.tours);
             case 3:
-                return "Attracti-ons";
+                return mContext.getString(R.string.attractions);
             default:
                 return null;
         }
