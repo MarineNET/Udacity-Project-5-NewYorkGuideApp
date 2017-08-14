@@ -24,6 +24,13 @@ public class Recommendations {
         mDescription = description;
     }
 
+    public boolean hasImage() {
+        if (mImage <= 0) {
+            return false;
+        }
+        return true;
+    }
+
     public int getTitle() {
         return mTitle;
     }

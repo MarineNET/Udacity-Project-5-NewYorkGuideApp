@@ -25,7 +25,8 @@ public class RestaurantFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list_view, container, false);
 
         ArrayList<Recommendations> recs = new ArrayList<>();
-        recs.add(new Recommendations(R.string.barbetta, R.string.barbetta_address, R.string.barbetta_descr));
+        recs.add(new Recommendations(R.string.barbetta, R.string.barbetta_address, R.string.barbetta_descr,
+                R.drawable._barbetta_wallace_jordan_01__card));
         recs.add(new Recommendations(R.string.barbetta, R.string.barbetta_address, R.string.barbetta_descr));
 
         final RecAdapter adapter = new RecAdapter(getActivity(), recs);
