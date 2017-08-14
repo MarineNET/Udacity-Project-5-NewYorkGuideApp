@@ -25,7 +25,7 @@ public class RecAdapter extends ArrayAdapter<Recommendations> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.restaurants,
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.restaurants_and_hotels,
                     parent, false);
         }
 

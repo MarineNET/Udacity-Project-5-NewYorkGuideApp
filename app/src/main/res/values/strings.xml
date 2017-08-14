@@ -8,15 +8,43 @@
     <string name="barbetta_descr">This establishment claims to be the oldest family-owned restaurant
         in all of NYC. They’ve been purveyors of traditional Northern Italian fare since 1906.</string>
 
+    <string name="brasserie">Brasserie 8 1/2</string>
+
+    <string name="brasserie_address">9 W. 57th St.        Manhattan, NY, 10019</string>
+
+    <string name="brasserie_descr">The original (and now closed) Brasserie was a first-year
+        Restaurant Week participant; diners can enjoy the type of elegant French cuisine it was
+        known for at its sister restaurant in Midtown West.</string>
+
+    <string name="cipriani">Cipriani Wall Street</string>
+
+    <string name="cipriani_address">55 Wall St.      Manhattan, NY, 10005</string>
+
+    <string name="cipriani_descr">The classic Italian dishes and signature cocktails at this majestic
+        Financial District establishment echo those of Bellini by Cipriani and (the still extant)
+        Harry Cipriani, both of which were original participants in NYC Restaurant Week.</string>
+
+    <string name="delmonico">Delmonico’s</string>
+
+    <string name="delmonico_address">56 Beaver St. Manhattan, NY, 10004</string>
+
+    <string name="delmonico_desc">This historic steakhouse was a pioneer of fine dining when it
+        first opened in 1837. You’ll find the same commitment to quality throughout its current incarnation.</string>
+
+    <string name="felidia">Felidia</string>
+
+    <string name="felidia_address">243 E. 58th St. Manhattan, NY, 10022</string>
+
+    <string name="felidia_desc">Celebrity chef Lidia Bastianich is an icon of Italian cooking. At
+        her flagship, the menu typically features hearty but refined Italian dishes like pear and
+        pecorino ravioli and braised quail legs with zucchini rollatine. </string>
+
     <string name="hotel_penn">New York’s Hotel Pennsylvania</string>
 
     <string name="penn_address">401 Seventh Ave. Manhattan, NY, 10001</string>
 
     <string name="penn_desc">Located steps from Madison Square Garden, the Hotel Pennsylvania is
         also close to Macy’s and the Empire State Building—the perfect location from which to explore some of NYC’s most famous attractions. The hotel itself is one of the City’s largest, with more than 1,700 rooms.</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
