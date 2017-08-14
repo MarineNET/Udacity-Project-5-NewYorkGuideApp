@@ -46,5 +46,47 @@
     <string name="penn_desc">Located steps from Madison Square Garden, the Hotel Pennsylvania is
         also close to Macy’s and the Empire State Building—the perfect location from which to explore some of NYC’s most famous attractions. The hotel itself is one of the City’s largest, with more than 1,700 rooms.</string>
 
+    <string name="wyndham">Wyndham New Yorker Hotel</string>
+
+    <string name="wyndham_address">481 Eighth Ave. Manhattan, NY, 10001</string>
+
+    <string name="wyndham_desc">Over the course of its history, this hotel has hosted the likes of
+        John F. Kennedy, Muhammad Ali and Nikola Tesla (who called it home for 10 years). Aside from
+        a central location, this art deco Midtown property offers a gym and the 24-hour Tick Tock Diner.</string>
+
+    <string name="stewart_hotel">Stewart Hotel</string>
+
+    <string name="stewart_address">371 Seventh Ave. Manhattan, NY, 10001</string>
+
+    <string name="stewart_desc">The striking design and high ceilings of this hotel sets the tone for
+        inspiring visits, including a variety of stylish rooms and spacious suites. Located across the
+        street from Penn Station and Madison Square Garden, the Stewart also offers easy access to locations like Times Square, Macy’s and Chelsea.</string>
+
+    <string name="tryp">Tryp New York City Times Square South</string>
+
+    <string name="tryp_address">345 W. 35th St. Manhattan, NY, 10001</string>
+
+    <string name="tryp_desc">With decor that blends NYC chic and Mediterranean warmth, this hotel is
+        packed with perks to make you feel at home. That means free gym clothes in the fitness center
+        and big-screen TVs and Nintendo video game consoles in the rooms—which are on the sizable side,
+        with a number well suited for families. </string>
+
+    <string name="renaissance">Renaissance New York Midtown</string>
+
+    <string name="renaissance_address">218 W. 35th St. Manhattan, NY, 10001</string>
+
+    <string name="renaissance_desc">Located in the Fashion District—within a few steps of MSG—this
+        hotel features digitally enhanced design, which changes its looks seasonally. Among the
+        Renaissance’s most appealing amenities: an 8,000-square-foot rooftop patio, said to be NYC’s
+        biggest, which has a retractable roof for rain-or-shine fun.</string>
+
+    <string name="Fairfield">Fairfield Inn and Suites by Marriott New York Midtown Manhattan/Penn Station</string>
+
+    <string name="Fairfield_address">325 W. 33rd St.       Manhattan, NY, 10001</string>
+
+    <string name="Fairfield_desc">Across the street from the Garden, this property is just a stone’s
+        throw from Times Square, the Empire State Building and Broadway theaters. It features a chic
+        rooftop bar along with amenities like a free breakfast buffet, a 24-hour fitness center and
+        roomy accommodations with modern design.</string>
 
 </resources>

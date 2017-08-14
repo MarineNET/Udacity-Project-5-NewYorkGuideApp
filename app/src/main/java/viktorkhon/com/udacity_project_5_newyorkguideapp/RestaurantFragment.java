@@ -15,8 +15,7 @@ import viktorkhon.com.udacity_project_5_newyorkguideapp.Adapters.RecAdapter;
  * A simple {@link Fragment} subclass.
  */
 public class RestaurantFragment extends Fragment {
-
-
+    
     public RestaurantFragment() {
         // Required empty public constructor
     }
