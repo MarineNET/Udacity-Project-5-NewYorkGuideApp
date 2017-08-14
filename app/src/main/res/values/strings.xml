@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">New York Guide App</string>
 
+    <!-- Restaurants -->
     <string name="barbetta">Barbetta</string>
 
     <string name="barbetta_address">321 W. 46th St. Manhattan, NY, 10036</string>
@@ -39,6 +40,8 @@
         her flagship, the menu typically features hearty but refined Italian dishes like pear and
         pecorino ravioli and braised quail legs with zucchini rollatine. </string>
 
+
+    <!-- Hotels -->
     <string name="hotel_penn">New York’s Hotel Pennsylvania</string>
 
     <string name="penn_address">401 Seventh Ave. Manhattan, NY, 10001</string>
@@ -88,5 +91,75 @@
         throw from Times Square, the Empire State Building and Broadway theaters. It features a chic
         rooftop bar along with amenities like a free breakfast buffet, a 24-hour fitness center and
         roomy accommodations with modern design.</string>
+
+    <!-- Tours -->
+    <string name="top_of_the_rock">Top of the Rock Observatory </string>
+
+    <string name="top_of_the_rock_desc">Its three observation decks include two that have some shelter
+        and one that’s all open-air; it sits atop the famous 30 Rockefeller Center, where famous shows
+        like Saturday Night Live are filmed; and it’s open until midnight for spectacular nighttime
+        views of the world’s greatest skyline.</string>
+
+    <string name="empire_state">Empire State Building </string>
+
+    <string name="empire_state_desc">This art deco masterpiece was the world’s tallest building for
+        four decades, and remains one of the most recognizable structures anywhere on earth. The
+        observation deck is open from sunrise until 2am, and on (most) Thursday through Saturday
+        nights a live saxophonist provides an atmospheric soundtrack.</string>
+
+    <string name="statue_liberty">Statue of Liberty and Ellis Island</string>
+
+    <string name="statue_liberty_desc">The Statue of Liberty is an icon known worldwide and an enduring,
+        inspiring symbol of New York City’s immigrant history. The Ellis Island Immigration Museum is a
+        place where US residents can trace their families’ own stories and everyone else can go over
+        passenger records, photos and other artifacts reflecting new Americans’ journeys to the land of opportunity.</string>
+
+    <string name="museum_natural_history">American Museum of Natural History </string>
+
+    <string name="museum_natural_history_desc">No matter what subject fascinates you, this museum is
+        going to teach you something that will blow your mind. Want to see full-size dinosaur skeletons?
+        They’ve got ’em. Learn about the inner workings of the human body? Sure. Feel what it’s like to
+        be deep in outer space or far below the surface of the ocean? It’s all there. And if you just
+        want to go to the gift shop and buy astronaut ice cream, they’ve got you covered.</string>
+
+    <string name="museum_modern_arts">The Museum of Modern Art (MoMA)</string>
+
+    <string name="museum_modern_arts_desc">This place hosts work by Vincent van Gogh, Frida Kahlo,
+        Andy Warhol and many more figures whose work is among the best known and most influential in
+        the world of modern art. If you care about painting, sculpture, film, performance or the artistic
+        history of New York City, it’s a must-visit.</string>
+
+    <string name="big_bus">Big Bus Tours </string>
+
+    <string name="big_bus_desc">There’s a lot of ground to cover in New York City, and these guided
+        bus tours are an efficient way to make sure you see sights like Central Park, Rockefeller
+        Center, Wall Street and the Brooklyn Bridge. It’s also an easy way to get around. And while
+        the guide speaks English, the taped audio commentary is available in 10 languages.</string>
+
+    <string name="tribute_9_11">9/11 Tribute Center and Walking Tour </string>
+
+    <string name="tribute_9_11_desc">While it’s undoubtedly a much more solemn occasion than most
+        activities for an NYC visitor, the 9/11 Tribute Center and Walking Tour are a chance to reflect
+        on the events of September 11, 2001. Many find the experience a powerful, memorable way to pay
+        respects to those lost on that tragic day.</string>
+
+    <string name="the_met">The Met Fifth Avenue </string>
+
+    <string name="the_met_desc">With 2 million works of art covering 5,000 years of human history, this
+        museum receives more visitors than any other in New York City. The Egyptian galleries—which
+        include the actual Temple of Dendur, originally built around 15 BC—and the Medieval Art collection
+        are just two of the many reasons it’s so popular. If you go, you’ll no doubt uncover a few
+        favorite sections of your own.</string>
+
+    <!-- Attractions -->
+    <string name="big_apple_greeter">Big Apple Greeter</string>
+
+    <string name="big_apple_greeter_desc">Get a warm New York City welcome from Big Apple Greeters
+        team of volunteers (many of whom are multilingual) as they guide you through the Citys
+        diverse neighborhoods. You can sign up to request the type of excursion youd like—the form
+        asks what neighborhoods tickle your fancy and what you're interests are—and you'll be matched
+        up (availability willing) with a local greeter.</string>
+
+
 
 </resources>
