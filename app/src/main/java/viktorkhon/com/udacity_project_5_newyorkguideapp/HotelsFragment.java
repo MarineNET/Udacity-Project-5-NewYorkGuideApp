@@ -7,9 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import viktorkhon.com.udacity_project_5_newyorkguideapp.Adapters.RecAdapter;
 
 /**
  * A simple {@link Fragment} subclass.

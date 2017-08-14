@@ -10,6 +10,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import viktorkhon.com.udacity_project_5_newyorkguideapp.Adapters.RecAdapter;
+
 /**
  * A simple {@link Fragment} subclass.
  */

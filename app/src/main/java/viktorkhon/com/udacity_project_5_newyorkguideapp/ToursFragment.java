@@ -1,12 +1,12 @@
 package viktorkhon.com.udacity_project_5_newyorkguideapp;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -15,10 +15,10 @@ import viktorkhon.com.udacity_project_5_newyorkguideapp.Adapters.AttractionAdapt
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AttractionsFragment extends Fragment {
+public class ToursFragment extends Fragment {
 
 
-    public AttractionsFragment() {
+    public ToursFragment() {
         // Required empty public constructor
     }
 
