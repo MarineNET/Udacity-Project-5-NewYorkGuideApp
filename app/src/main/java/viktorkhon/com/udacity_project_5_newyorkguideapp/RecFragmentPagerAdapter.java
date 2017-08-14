@@ -17,13 +17,15 @@ public class RecFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new RestaurantFragment();
-        } else {
+        } else if (position == 1){
             return new HotelsFragment();
+        } else {
+            return new AttractionsFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }

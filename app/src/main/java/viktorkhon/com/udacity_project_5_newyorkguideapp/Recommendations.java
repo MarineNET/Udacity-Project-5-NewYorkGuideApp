@@ -24,6 +24,11 @@ public class Recommendations {
         mDescription = description;
     }
 
+    public Recommendations(int title, int description) {
+        mTitle = title;
+        mDescription = description;
+    }
+
     public boolean hasImage() {
         if (mImage <= 0) {
             return false;
