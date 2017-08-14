@@ -22,7 +22,7 @@ public class RecFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new RestaurantFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new HotelsFragment();
         } else if (position == 2) {
             return new ToursFragment();

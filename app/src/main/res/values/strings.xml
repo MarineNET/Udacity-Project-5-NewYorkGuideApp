@@ -151,15 +151,49 @@
         are just two of the many reasons it’s so popular. If you go, you’ll no doubt uncover a few
         favorite sections of your own.</string>
 
-    <!-- Attractions -->
+    <!-- Free Attractions -->
     <string name="big_apple_greeter">Big Apple Greeter</string>
 
     <string name="big_apple_greeter_desc">Get a warm New York City welcome from Big Apple Greeters
         team of volunteers (many of whom are multilingual) as they guide you through the Citys
         diverse neighborhoods. You can sign up to request the type of excursion youd like—the form
-        asks what neighborhoods tickle your fancy and what you're interests are—and you'll be matched
+        asks what neighborhoods tickle your fancy and what you\'re interests are—and you\'ll be matched
         up (availability willing) with a local greeter.</string>
 
+    <string name="central_park">Central Park Conservancy</string>
 
+    <string name="central_park_desc">Central Park has 80 acres of woodland, 250 acres of lawns and
+        150 acres of water; trying to see it all without an expert tour guide can be overwhelming.
+        The Central Park Conservancys long lineup of free tours aims to cover it all (note: the
+        organization also offers a series of ticketed tours focusing on things like "iconic views"
+        and Belvedere Castle). </string>
+
+    <string name="tours_by_foot">Free Tours by Foot</string>
+
+    <string name="tours_by_foot_desc">Lace up those walking shoes, and join Free Tours by Foots expert
+        guides for deep dives into Manhattan and Brooklyn. Taste the edibles of the Lower East Side,
+        Greenwich Village or Chinatown on a food tour (you pay for the eats from your own pocket);
+        check out Harlem landmarks like the Apollo Theater; pop in to the thrift stores of Gramercy;
+        or explore Chelsea and the High Line to get those striking river views. All guides work solely
+        for tips, so the value of each outing is up to you. </string>
+
+    <string name="grand_central_partnership">Grand Central Partnership</string>
+
+    <string name="grand_central_partnership_desc">See why the neighborhood surrounding Grand Central
+        Terminal is so much more than a transportation hub. Every Friday at 12:30pm, the Grand Central
+        Partnership conducts a 90-minute guided walking tour led by an urban historian.</string>
+
+    <string name="brooklyn_brewery">Brooklyn Brewery and SingleCut Beersmiths</string>
+
+    <string name="brooklyn_brewery_desc">Choose a borough in which to learn about suds-making. Brooklyn
+        Brewery hosts free tours every Saturday that start on the half hour between 1pm and 5pm. (
+        Under 21s must be accompanied by a parent or guardian.) </string>
+
+    <string name="village_alliance">Village Alliance</string>
+
+    <string name="village_alliance_desc">As evidenced by literary icons of the past, like Mark Twain
+        and Edgar Allan Poe, as well as the artists and students today who frequent the neighborhoods
+        coffee shops, theaters and music clubs, Greenwich Villages bohemian vibe has stood the test of time.
+        Discover the area\'s undeniable charm on a free walking tour sponsored by the Village Alliance.</string>
 
 </resources>
